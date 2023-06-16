@@ -4,10 +4,7 @@ describe("serializer", () => {
     var BufferReader, BufferWriter, serializer;
 
     beforeEach(() => {
-        var BufferSerializer;
-
-        BufferSerializer = require("../");
-        serializer = new BufferSerializer();
+        serializer = require("../");
         BufferReader = require("../lib/buffer-reader")();
         BufferWriter = require("../lib/buffer-writer")();
     });
