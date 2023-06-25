@@ -1,8 +1,9 @@
 {
     "name": "@kuyoonjo/buffer-serializer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Convert JavaScript objects into Buffers and vice-versa.  Serializes objects using a compact storage mechanism.  Expandable to handle your own objects.",
     "main": "lib/index.js",
+    "types": "index.d.ts",
     "scripts": {
         "watch": "jasmine-node --autotest lib spec",
         "test": "jasmine-node lib spec"
